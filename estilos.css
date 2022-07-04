@@ -247,6 +247,11 @@ height: 400px;
 
 .aRedesFot {
     color: #242729;
+    transition: all .5s;
+}
+
+.aRedesFot:hover {
+    color: #000000a9;
 }
 
 svg {
@@ -262,7 +267,7 @@ input,label {
 
 .inputNombre {
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: transparent;
     border: none; 
     border-bottom: 1px solid #242729;
@@ -282,7 +287,7 @@ input,label {
 
 .inputApellido {
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: transparent;
     border: none; 
     border-bottom: 1px solid #242729;
@@ -302,7 +307,7 @@ input,label {
 
 .inputEmail  {
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: transparent;
     border: none; 
     border-bottom: 1px solid #242729;
@@ -321,7 +326,7 @@ input,label {
 
 .textarea {
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 40px;
     background-color: transparent;
     border: none; 
     border-bottom: 1px solid #242729;
@@ -337,6 +342,23 @@ input,label {
     box-shadow: none;
     border-bottom: 2px solid #242729;
  }
+
+.btnCon { 
+    margin-left: 10px;
+    margin-top: 40px;
+    padding: 5px;
+    width: 70px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition: all .5s;
+    background-color: transparent;
+}
+
+.btnCon:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.486);
+   transform: scale(1.05);
+}
 
 label {
     font-size: 20px;  
