@@ -61,6 +61,16 @@ nav ul{
     display: flex;
     padding-right: 32px;
 }
+
+nav ul li {
+    width: 120px;   
+    text-align: center;
+}
+
+.aInicio1 {
+    padding-left: 40px;
+}
+
 }
 
 .contenedorInicio {
@@ -117,13 +127,30 @@ img {
     background-color: #242729;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
-    width: 70%;
+    width: 100%;
     height: 40px;
     font-weight: bold;
     transition: all 0.5s;
 }
 
 .btnProd:hover {
+    border-radius: 10px;
+    background-color: rgba(209, 205, 205, 0.199);
+    color: #242729;
+}
+
+.btnProd2 {
+    color: rgb(247, 243, 243);
+    background-color: #242729;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    width: 85%;
+    height: 35px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.btnProd2:hover {
     border-radius: 10px;
     background-color: rgba(209, 205, 205, 0.199);
     color: #242729;
@@ -164,14 +191,46 @@ img {
     margin-top: 10px;
 }
 
+.ImgPro1 {
+    height: 225px;
+}
+
+.ImgPro2 {
+    height: 220px;
+}
+
+.ImgPro3 {
+    height: 220px;
+}
+
+.ImgPro4 {
+    height: 220px;
+}
+
+.ImgPro5 {
+    height: 220px;
+}
+
+.ImgPro6 {
+    height: 220px;
+}
+
 /*NOSOTROS*/
 
 .cajaImgNos {
-height: 400px;
-    max-width: 800px;
-    background-color: #242729;
-    border-radius: 15px;
-    box-shadow: 0px 5px 15px;
+    height: 450px;
+    max-width: 800px;  
+    overflow: hidden;
+}
+
+.nosotrosImg {
+    background-size: cover; 
+    border-radius: 20px;
+   transition: all 1s;
+}
+
+.nosotrosImg:hover {
+    transform: scale(1.02);
 }
 
 .mainNos {
@@ -207,7 +266,8 @@ height: 400px;
 .hrNos3 {
     width: 80%;
     height: 2px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width:776px){
@@ -219,8 +279,9 @@ height: 400px;
     .mainNos {
         margin-top: 60px;
     }
-
 }
+
+
 
 /*NOVEDADES*/
 
@@ -304,7 +365,7 @@ input,label {
 
 .inputNombre {
     padding: 8px;
-    margin-top: 15px;
+    padding-bottom: 25px;
     background-color: transparent;
     border: none; 
     border-bottom: 1px solid #242729;
@@ -318,13 +379,13 @@ input,label {
 .inputNombre:focus {
     background-color: transparent;
     box-shadow: none;
-    border-bottom: 2px solid #242729;
+    border-bottom: 2px solid #ac1e1e;
  }
 
 
 .inputApellido {
     padding: 8px;
-    margin-top: 15px;
+    padding-bottom: 25px;
     background-color: transparent;
     border: none; 
     border-bottom: 1px solid #242729;
@@ -338,12 +399,13 @@ input,label {
 .inputApellido:focus {
     background-color: transparent;
     box-shadow: none;
-    border-bottom: 2px solid #242729;
+    border-bottom: 2px solid #ac1e1e;
  }
 
 
 .inputEmail  {
     padding: 10px;
+    padding-bottom: 50px;
     margin-top: 30px;
     background-color: transparent;
     border: none; 
@@ -357,17 +419,16 @@ input,label {
  .inputEmail:focus {
     background-color: transparent;
     box-shadow: none;
-    border-bottom: 2px solid #242729;
+    border-bottom: 2px solid #ac1e1e;
  }
 
 
 .textarea {
-
     margin-top: 40px;
     background-color: transparent;
     border: none; 
     border-bottom: 1px solid #242729;
-    font-size: 20px;
+    font-size: 20px;  
 }
 .textarea:hover {
     background-color: transparent;
@@ -377,7 +438,7 @@ input,label {
  .textarea:focus {
     background-color: transparent;
     box-shadow: none;
-    border-bottom: 2px solid #242729;
+    border-bottom: 2px solid #ac1e1e;
  }
 
 .btnCon { 
@@ -390,6 +451,11 @@ input,label {
     font-weight: bold;
     transition: all .5s;
     background-color: transparent;
+}
+
+.labelCon {
+     margin-top: -15px;
+   
 }
 
 .btnCon:hover {
