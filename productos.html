@@ -10,25 +10,19 @@
 </head>
 <body class="contenedores">   
         
-    <nav class="barraNavProductos container navbar navbar-expand-lg bg-light mt-3 ">
-      <div class="cajaNav container-fluid">
-       <div class="imgNav col justify-content-end">
-       <img class="" src="img/logo.png" alt="">
-      </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-       <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
-        <div class="navbar-nav col-lg justify-content-end">
-            <a class="aProductos nav-link" href="index.html">INICIO</a>
-            <a class="aProductos nav-link" href="productos.html">PRODUCTOS</a>
-            <a class="aProductos nav-link" href="nosotros.html">NOSOTROS</a>
-            <a class="aProductos nav-link" href="novedades.html">NOVEDADES</a>
-            <a class="aProductos nav-link" href="contacto.html">CONTACTO</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <nav class="navbar"> 
+  
+    <label class="labelMenu" for="menu"><img class="imgHam" src="img/list.svg" alt=""></label>
+     <input class="menuHam" type="checkbox" name="menu" id="menu">
+     <ul>
+      <li><a class="aInicio" href="index.html">INICIO</a></li>
+      <li><a class="aInicio" href="productos.html">PRODUCTOS</a></li>
+      <li><a class="aInicio" href="nosotros.html">NOSOTROS</a></li>
+      <li><a class="aInicio" href="novedades.html">NOVEDADES</a></li>
+      <li><a class="aInicio" href="contacto.html">CONTACTO</a></li>
+     </ul>
+     
+  </nav>
 
     <main class="d-flex flex-column">
       <section class="d-flex align-items-center justify-content-evenly mt-5">
@@ -112,7 +106,7 @@
                 </svg></a>
           </div>
            <div class="cajaFotLogo">
-            <img class="imgFotLogo" src="img/logo.png" alt="">
+            <a href="productos.html"><img class="imgFotLogo" src="img/logo.png" alt=""></a>
           </div>
       </footer>
       
