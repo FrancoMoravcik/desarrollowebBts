@@ -1,0 +1,14 @@
+.mainNos {
+    margin-top: 60px;
+    .cajaImgNos {
+    max-width: 800px;
+    .nosotrosImg {
+   margin-left: 14px;
+   border-radius:30px;
+   transition: all 1s;
+   &:hover {
+     transform: scale(1.02);
+     img {
+     max-width: none; 
+}}}}}
+ 

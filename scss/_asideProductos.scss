@@ -1,0 +1,22 @@
+.cajaP {
+    border: solid 1px #242729; 
+     background-color: #242729;
+     border-radius: 10px;
+     transition: all 1s;
+     margin: 0px 10px 0px 10px;
+     &:hover {
+    background-color: #242729c0;
+} 
+}
+
+.parrafoP {
+    color:  rgb(247, 243, 243);
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width:776px){
+    aside {
+        display: flex;
+        flex-direction: column;
+    }    
+}

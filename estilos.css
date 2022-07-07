@@ -213,31 +213,38 @@ img {
 /*NOSOTROS*/
 
 .cajaImgNos {
-    height: 450px;
-    max-width: 800px;  
-    overflow: hidden;
+   max-width: 800px;
 }
 
+
 .nosotrosImg {
-    background-size: cover; 
-    border-radius: 20px;
-   transition: all 1s;
+  margin-left: 14px;
+  border-radius:30px;
+  transition: all 1s;
 }
 
 .nosotrosImg:hover {
     transform: scale(1.02);
 }
 
-.mainNos {
-    height: 500px;
-    max-height: 60%;
-    margin:auto;
-    margin-top: 100px;
+img {
+    max-width: none;
+
 }
+
+.mainNos {
+   margin-top: 60px;
+}
+
+
+
+
+
 
 .parrafoNos {
     font-family: 'Cairo', sans-serif;
     max-width: 90%;
+    max-height: 300px;
     margin-bottom: 10px;
   margin: auto;
 } 
@@ -265,16 +272,6 @@ img {
     margin-top: 50px;
 }
 
-@media screen and (max-width:776px){
-    .mainNos {
-        height: 750px;
-        max-height: 60%;
-    }
-
-    .mainNos {
-        margin-top: 60px;
-    }
-}
 
 
 

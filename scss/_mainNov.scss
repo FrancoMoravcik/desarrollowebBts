@@ -1,0 +1,22 @@
+.mainNov {
+    margin-top: 70px;
+    .textoNov {
+     font-family: 'Montserrat', sans-serif;
+     .cajaImgNov {
+     border-radius: 15px;
+     margin-bottom: 25px;
+     margin-top: 50px;
+     padding-left: 20px;
+     .ImgNov { 
+     background-size: cover;
+     width: 400px;
+     min-width: 380px;
+     height: 250px;
+     border-radius: 12px;
+     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.486);
+     transition: all 1s;
+     opacity: 0.8;
+     &:hover {
+         transform: scale(1.01);
+         opacity: 1;
+       }}}}}

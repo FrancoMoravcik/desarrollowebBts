@@ -1,0 +1,79 @@
+input,label {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+label {
+    font-size: 20px;  
+     margin-top: -15px;  
+}
+
+.inputNombre {
+    padding: 8px;
+    padding-bottom: 25px;
+    background-color: transparent;
+    border: none; 
+    border-bottom: 1px solid #242729;
+    font-size: 20px;
+    &:hover {
+   background-color: transparent;
+   box-shadow: none;
+   border-bottom: 2px solid #242729;
+   &:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #ac1e1e;
+ }}}
+
+.inputApellido {
+    padding: 8px;
+    padding-bottom: 25px;
+    background-color: transparent;
+    border: none; 
+    border-bottom: 1px solid #242729;
+    font-size: 20px;
+    &:hover {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #242729;
+ }
+   &:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #ac1e1e;
+ }}
+
+.inputEmail  {
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: none; 
+    border-bottom: 1px solid #242729;
+    &:hover {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #242729; 
+ }
+ &:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #ac1e1e;
+ }}
+
+.textarea {
+    margin-top: 40px;
+    background-color: transparent;
+    border: none; 
+    border-bottom: 1px solid #242729;
+    font-size: 20px;  
+    &:hover {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #242729;
+ }
+    &:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #ac1e1e;
+ }}
