@@ -8,16 +8,28 @@
 
 nav .menuHam {
     display: none;
-    transition: all 3s;
 }
 
 nav .menuHam:checked + ul {
     display: flex;
 }
 
+.navbar {
+    width: 100%;
+    background-color: #242729;
+}
+
 .imgHam {
     width: 30px; 
-    margin: 20px 0px 0px 25px;
+    margin: 20px 0px 15px 25px;
+}
+
+.navInicio,.ulInicio{
+    background-color: transparent;
+}
+
+nav {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.24);
 }
 
 nav ul{
@@ -26,24 +38,27 @@ nav ul{
      flex-direction: column;
      align-items: flex-end;
     list-style: none;
-    margin-right: 20px;
+    background-color: #242729;
+  
 }
 
 nav ul li {
     padding: 7px;  
+    margin-right: 10px;
 }
 
 nav ul li a {  
     text-decoration: none;
-    color: #020202dc;
+    color: #fff;
     font-weight: 600;
     font-size: 17px;
-    transition: all .5s;
+    transition: all .8s;
 }
 
 nav ul li a:hover {
-     color: #000;
-     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.253);
+     color: rgb(255, 255, 255);
+     border-bottom: 1px solid white;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.466);
 }
 
 @media  screen and (min-width: 776px) {
@@ -53,18 +68,18 @@ nav ul li a:hover {
 
 nav ul{
     margin:auto;   
-    height: 70px;
-    margin-top:30px;
+    height: 100px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     display: flex;
     padding-right: 32px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.24);
 }
 
 nav ul li {
     width: 120px;   
-    text-align: center;
+    text-align: center;   
 }
 }
 
