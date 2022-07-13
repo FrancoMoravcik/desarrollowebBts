@@ -374,6 +374,7 @@ input,label {
 }
 
 .inputNombre {
+    margin-left: 10px;
     padding: 8px;
     padding-bottom: 25px;
     background-color: transparent;
@@ -394,6 +395,7 @@ input,label {
 
 
 .inputApellido {
+    margin-left: 10px;
     padding: 8px;
     padding-bottom: 25px;
     background-color: transparent;
@@ -414,6 +416,7 @@ input,label {
 
 
 .inputEmail  {
+    margin-left: 10px;
     padding: 10px;
     padding-bottom: 50px;
     margin-top: 30px;
@@ -434,6 +437,7 @@ input,label {
 
 
 .textarea {
+    margin-left: 10px;
     margin-top: 40px;
     background-color: transparent;
     border: none; 
