@@ -4,9 +4,20 @@
     border-radius: map-get($variablesAdsidePro, borderRadio);
     transition: map-get($variablesAdsidePro, tiempotransicion);
     margin: map-get($variablesAdsidePro, margenes);
+    height:  map-get($variablesAdsidePro, alto);
+    width:  map-get($variablesAdsidePro, ancho);
+    cursor:  map-get($variablesAdsidePro, cursorr);
     &:hover {
         background-color: #242729c0;
     } 
+}
+
+.DP2 {
+    width: 200px;
+}
+
+.DP1 {
+    width: 200px;
 }
 
 .parrafoP {
@@ -14,9 +25,33 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (max-width:776px){
-    aside {
-        display: flex;
-        flex-direction: column;
-    }    
+big {
+    font-weight: bold;
 }
+
+@media screen and (max-width:776px){
+    .cajaP {
+       width:97%;
+    }
+         
+        aside {
+            display: flex;
+            flex-direction: column;
+        } 
+        
+        .DP2 {
+            width: 200px;
+        }
+    
+        .DP1 {
+            width: 200px;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+       .divProduc {
+        width: 100px;
+       }
+    
+    }
+    
