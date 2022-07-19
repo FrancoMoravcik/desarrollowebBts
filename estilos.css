@@ -26,6 +26,7 @@ nav .menuHam:checked + ul {
 
 .navInicio,.ulInicio{
     background-color: transparent;
+    box-shadow: none;
 }
 
 nav {
@@ -52,7 +53,7 @@ nav ul li a {
     color: #fff;
     font-weight: 600;
     font-size: 17px;
-    transition: all .8s;
+    transition: all .5s;
 }
 
 nav ul li a:hover {
@@ -61,9 +62,17 @@ nav ul li a:hover {
      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.466);
 }
 
+.aI {
+    margin-left: 35px;
+}
+
 @media  screen and (min-width: 776px) {
   .labelMenu {
     display: none;
+}
+
+nav {
+     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.24);
 }
 
 nav ul{
@@ -73,8 +82,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-right: 32px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.24);
+    padding-right: 32px;  
 }
 
 nav ul li {
@@ -133,7 +141,7 @@ img {
 }
 
 .btnProd {
-    color: rgb(247, 243, 243);
+    color: white;
     background-color: #242729;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
@@ -150,7 +158,7 @@ img {
 }
 
 .btnProd2 {
-    color: rgb(247, 243, 243);
+    color: white;
     background-color: #242729;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
@@ -391,10 +399,10 @@ input,label {
 .inputNombre {
     margin-left: 10px;
     padding: 8px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     background-color: transparent;
     border: none; 
-    border-bottom: 1px solid #242729;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.466);;
     font-size: 20px;
     }
 .inputNombre:hover {
@@ -412,10 +420,10 @@ input,label {
 .inputApellido {
     margin-left: 10px;
     padding: 8px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     background-color: transparent;
     border: none; 
-    border-bottom: 1px solid #242729;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.466);
     font-size: 20px;
 }
 .inputApellido:hover {
@@ -437,7 +445,7 @@ input,label {
     margin-top: 30px;
     background-color: transparent;
     border: none; 
-    border-bottom: 1px solid #242729;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.466);
 }
 .inputEmail:hover {
     background-color: transparent;
@@ -456,7 +464,7 @@ input,label {
     margin-top: 40px;
     background-color: transparent;
     border: none; 
-    border-bottom: 1px solid #242729;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.466);
     font-size: 20px;  
 }
 .textarea:hover {
@@ -478,8 +486,15 @@ input,label {
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    transition: all .5s;
+    transition: all .8s;
     background-color: transparent;
+}
+
+.btnCon:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.486);
+   transform: scale(1.05);
+   color: white;
+   background-color: #242729;
 }
 
 .labelCon {
@@ -487,10 +502,7 @@ input,label {
    
 }
 
-.btnCon:hover {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.486);
-   transform: scale(1.05);
-}
+
 
 label {
     font-size: 20px;  
@@ -508,7 +520,7 @@ footer {
 }
 
 .footerCon {
-    width: 102%;
+    width: 104%;
 }
 
 
