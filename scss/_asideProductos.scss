@@ -52,6 +52,24 @@ big {
        .divProduc {
         width: 100px;
        }
+
+       .seccionP1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sectionP2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .divProduc {
+        margin: 10px 0px;
+        width: 50%;
+    }
+    
     
     }
     
