@@ -1,12 +1,36 @@
+@media  screen and (min-width: 776px) {
+    .mainNov {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-@media screen and (min-width:768px){
-    .ImgNov {       
-       min-width: 250px;
-       max-width: 250px;
-       height: 200px;     
-   }
+    .cajaNov {
+       width: 33%;
+    }
 
-   .cajaImgNov {
-       margin-left: 0px;
-   }
+    .imgNov {
+        width: 240px;
+        height: 200px;
+        margin-top: 100px;
+    }
+
+    .cajaTextoNov {
+        margin-bottom: 2000px; 
+         .tNov {
+    width: 60%;
+    padding: 10px 5px 0px 5px;
 }
+  }
+
+
+}
+
+@media  screen and (min-width: 992px) {
+    .imgNov {
+        width: 320px;
+        height: 200px;
+       
+    }
+}
+

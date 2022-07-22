@@ -181,6 +181,7 @@ hr {
     background-color: rgba(230, 227, 227, 0.699);
 }
 
+
 img {
     max-width: 130px;
 }
@@ -231,11 +232,10 @@ img {
 }
 
 .cajaP {
-    border: solid 1px #242729; 
      background-color: #242729;
      border-radius: 10px;
      transition: all 1s;
-     margin: 0px 10px 0px 10px;
+     margin: 0px 5px 0px 5px;
      height: 100px;
          width: 500px;
          cursor: pointer;
@@ -408,49 +408,93 @@ img {
 /*NOVEDADES*/
 
 .mainNov {
-   margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.textoNov {
-    font-family: 'Montserrat', sans-serif;
+.cajaNov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.cajaImgNov {
-    border-radius: 15px;
-    margin-bottom: 25px;
-    margin-top: 50px;
-    padding-left: 20px;
+.tNov {
+    font-family: 'Roboto', sans-serif;
+    background-color: #242729;
+    color: #fff;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px 5px 0px 5px;
+    transition: all .8s;
 }
 
-.ImgNov { 
-    background-size: cover;
-    width: 400px;
-    min-width: 380px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.486);
-    transition: all 1s;
+.tNov:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.466);
+}
+
+
+
+.tNov1 {
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 5px;
+}
+
+.imgNov {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.466);
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
     opacity: 0.8;
+    transition: all .8s;
+    margin-top: 50px;
 }
 
-.ImgNov:hover {
-  transform: scale(1.01);
-  opacity: 1;
+
+.imgNov:hover {
+    opacity: 1;
 }
 
-.TC1 {
-    margin-left: 20px;
+.cajaTextoNov {
+      height: 200px;
+      margin-bottom: 150px;
 }
 
-@media screen and (min-width:768px){
-     .ImgNov {       
-        min-width: 250px;
-        max-width: 250px;
-        height: 200px;     
+@media  screen and (min-width: 776px) {
+    .mainNov {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    .cajaImgNov {
-        margin-left: 0px;
+    .cajaNov {
+       width: 33%;
+    }
+
+    .imgNov {
+        width: 240px;
+        height: 200px;
+        margin-top: 100px;
+    }
+
+    .cajaTextoNov {
+        margin-bottom: 2000px;
+  }
+
+  .tNov {
+    width: 60%;
+    padding: 10px 5px 0px 5px;
+}
+}
+
+@media  screen and (min-width: 992px) {
+    .imgNov {
+        width: 320px;
+        height: 200px;
+       
     }
 }
 
@@ -637,7 +681,7 @@ footer {
 }
 
 .footerCon {
-    width: 104%;
+    width: 100%;
 }
 
 
